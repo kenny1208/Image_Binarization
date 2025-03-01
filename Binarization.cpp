@@ -7,7 +7,7 @@ int main()
     FILE* fpOut;
 
     bool err = fopen_s(&fp, "AiPic.bmp", "rb");
-    err = fopen_s(&fpOut, "AiPic_bin.bmp", "wb");
+    err = fopen_s(&fpOut, "AiPic_bin2.bmp", "wb");
     if (err != 0) {
         printf("Error opening input file!\n");
         return 1;
